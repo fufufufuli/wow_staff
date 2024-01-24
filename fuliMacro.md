@@ -10,6 +10,14 @@
 /castrandom [flyable] 暴怒角斗士的冰霜巨龙, 罪孽角斗士的噬魂者
 /castrandom [noflyable] 迅捷幽灵虎, 白色邪恶作战刃豹
 ```
+#### 标记队友 1星星，2大饼，3紫菱，4三角，5月亮，6方块，7红x，8骷髅
+```
+/script SetRaidTarget("player",8)
+/script SetRaidTarget("party1",2)
+/script SetRaidTarget("party2",6)
+/script SetRaidTarget("party3",)
+/script SetRaidTarget("party4",)
+```
 ```
 /focus [@mouseover,exists][@target]
 ```
