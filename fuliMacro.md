@@ -61,9 +61,6 @@
 /cast [@player] 驱散魔法
 /cast [@player] 清洁术
 ```
-```
-/cast [@mouseover,harm,nodead][harm,nodead][]超度邪恶
-```
 ## warrior
 ```
 #showtooltip [stance:1/3]拳击;[stance:2]盾击
@@ -111,7 +108,7 @@
 /castsequence 神圣之火,心灵震爆
 ```
 ```
-/cast [@mouseover,harm,nodead][harm,nodead][@targettarget,harm,nodead][] 心灵震爆
+/cast [@mouseover,harm,nodead][harm,nodead][@targettarget,harm,nodead][]心灵震爆
 ```
 ```
 /cast [@mouseover,harm,nodead][harm,nodead]束缚亡灵;[help][]联结治疗
@@ -155,18 +152,18 @@
 ```
 ```
 /cancelaura 寒冰屏障
-/cast [@mouseover,harm,nodead][harm,nodead][] 火焰冲击
+/cast [@mouseover,harm,nodead][harm,nodead][]火焰冲击
 ```
 ```
 /cancelaura 寒冰屏障
 /stopcasting
-/cast [@mouseover,harm,nodead][harm,nodead][] 法术反制
+/cast [@mouseover,harm,nodead][harm,nodead][]法术反制
 ```
 ```
 /cast [@mouseover,help,nodead][help,nodead]][@player]解除诅咒
 ```
 ```
-/cast [@mouseover,harm,nodead][harm,nodead][] 霜火之箭
+/cast [@mouseover,harm,nodead][harm,nodead][]霜火之箭
 /petattack
 ```
 ```
@@ -176,14 +173,14 @@
 ```
 /dismount
 /cancelaura 寒冰屏障
-/cast [@mouseover,harm,nodead][harm,nodead][] 变形术
+/cast [@mouseover,harm,nodead][harm,nodead][]变形术
 /petfollow
 ```
 ```
 /castsequence 法师护甲,霜甲术
 ```
 ```
-/cast [@focus,combat] 火焰冲击;迅捷褐色马
+/cast [@focus,combat]火焰冲击;迅捷褐色马
 ```
 ```
 #showtooltip 烈焰宝珠
@@ -193,7 +190,7 @@
 ```
 ```
 #showtooltip 
-/cast [@cursor] 暴风雪
+/cast [@cursor]暴风雪
 ```
 ## paladin
 ```
@@ -201,7 +198,7 @@
 /cast [@mouseover,harm,nodead][harm,nodead]审判;圣光道标
 ```
 ```
-/cast [@mouseover,harm,nodead][harm,nodead] 十字军打击;圣光闪现
+/cast [@mouseover,harm,nodead][harm,nodead]十字军打击;圣光闪现
 ```
 ```
 /cast [@mouseover,harm,nodead][harm,nodead][]责难
@@ -209,23 +206,23 @@
 ```
 ##### 队友牺牲
 ```
-/cast [@party1] 牺牲之手
+/cast [@party1]牺牲之手
 ```
 ##### 队友保护
 ```
-/cast [@party1] 保护之手
+/cast [@party1]保护之手
 ```
 ##### 队友自由
 ```
-/cast [@party1] 自由之手
+/cast [@party1]自由之手
 ```
 ##### 自己自由
 ```
-/cast [@player] 自由之手
+/cast [@player]自由之手
 ```
 ##### 自己保护
 ```
-/cast [@player] 保护之手
+/cast [@player]保护之手
 ```
 ```
 /cast [harm,nodead]愤怒之锤;[help][]圣光术
@@ -233,6 +230,9 @@
 ```
 #showtooltip 
 /cast [@mouseover,harm,nodead][harm,nodead]清算之手;正义防御
+```
+```
+/cast [@mouseover,harm,nodead][harm,nodead][]超度邪恶
 ```
 
 
