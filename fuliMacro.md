@@ -6,6 +6,10 @@
 |F1|F2|F3|alt+1|alt+2|alt+3|alt+v|ctr+w|ctr+e|ctr+r|``|``|
 |shift+1|shift+2|shift+3|shift+q|shift+w|shift+e|shift+r|shift+t|shift+z|shift+x|shift+v|alt+f|
 ## 通用宏
+#### 屏幕中间技能
+```
+/click ExtraActionButton1
+```
 ```
 /castrandom [flyable] 暴怒角斗士的冰霜巨龙, 罪孽角斗士的噬魂者
 /castrandom [noflyable] 迅捷幽灵虎, 白色邪恶作战刃豹
