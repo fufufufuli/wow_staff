@@ -164,7 +164,7 @@
 /cast [@mouseover,harm,nodead][harm,nodead][]法术反制
 ```
 ```
-/cast [@mouseover,help,nodead][help,nodead]][@player]解除诅咒
+/cast [@mouseover,help,nodead][help,nodead][]解除诅咒
 ```
 ```
 /cast [@mouseover,harm,nodead][harm,nodead][]霜火之箭
