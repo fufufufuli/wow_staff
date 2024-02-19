@@ -59,14 +59,21 @@
 ```
 #### 鼠标指向
 ```
+/cast [@mouseover,help][]清洁术
+```
+#### 鼠标指向
+```
+#showtooltip 
 /cast [@mouseover,help][help]自由之手
 ```
 #### 鼠标指向
 ```
+#showtooltip 
 /cast [@mouseover,help][help]保护之手
 ```
 #### 鼠标指向
 ```
+#showtooltip 
 /cast [@mouseover,help][help]牺牲之手
 ```
 ##### 自己自由
