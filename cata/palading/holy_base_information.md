@@ -43,8 +43,12 @@
 /cast [@player] 清洁术
 ```
 ```
-#showtooltip 审判
-/cast [@mouseover,harm,nodead][harm,nodead]审判;圣光道标
+#showtooltip 
+/cast [@mouseover,harm,nodead][harm,nodead][@targettarget,harm,nodead][]审判
+```
+```
+#showtooltip 
+/cast [@mouseover,harm,nodead][harm,nodead][@targettarget,harm,nodead][]驱邪术
 ```
 ```
 /cast [@mouseover,harm,nodead][harm,nodead]十字军打击;圣光闪现
@@ -52,6 +56,18 @@
 ```
 /cast [@mouseover,harm,nodead][harm,nodead][]责难
 /cast 十字军打击
+```
+#### 鼠标指向
+```
+/cast [@mouseover,help][help]自由之手
+```
+#### 鼠标指向
+```
+/cast [@mouseover,help][help]保护之手
+```
+#### 鼠标指向
+```
+/cast [@mouseover,help][help]牺牲之手
 ```
 ##### 自己自由
 ```
